@@ -1,0 +1,32 @@
+{
+  "name": "disasterbot",
+  "version": "1.0.0",
+  "description": "bot control desastres naturales",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/antikytheraton/disasterBot.git"
+  },
+  "keywords": [
+    "bot",
+    "control",
+    "IoT"
+  ],
+  "author": "devf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/antikytheraton/disasterBot/issues"
+  },
+  "homepage": "https://gitlab.com/antikytheraton/disasterBot#readme",
+  "dependencies": {
+    "bootbot": "^1.0.12",
+    "request": "^2.83.0"
+  },
+  "engines": {
+    "node": "8.6.0"
+  }
+}
