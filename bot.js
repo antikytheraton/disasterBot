@@ -23,7 +23,7 @@ bot.module(menu_inicio);
 bot.on('postback:ABRIR', (payload, chat) => {
     chat.say('Abriendo sistemas de gas', {typing:true
     }).then(() => (
-        request.post('https://5ab396e5.ngrok.io/gasSystem/abrir')
+        request.post('https://3fcc218d.ngrok.io/gasSystem/abrir')
         
     )).then(() => (
         chat.say('Sistemas de gas activados ;)')
@@ -33,7 +33,7 @@ bot.on('postback:ABRIR', (payload, chat) => {
 bot.on('postback:CERRAR', (payload, chat) => {
     chat.say('Cerrando sistemas de gas', {typing:true
     }).then(() => (
-        request.post('https://5ab396e5.ngrok.io/gasSystem/cerrar')
+        request.post('https://3fcc218d.ngrok.io/gasSystem/cerrar')
         
     )).then(() => (
         chat.say('Sistemas de gas desactivados')
